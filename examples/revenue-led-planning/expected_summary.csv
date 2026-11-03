@@ -1,0 +1,4 @@
+scenario,entity_id,period,currency,revenue,delivery_hours,direct_cost,gross_profit,operating_expenses,ebitda,ebitda_margin,target_ebitda_margin,target_shortfall,capacity_headroom_hours
+Base,DEMO-001,2027-01,USD,80000,350,31500,48500,23000,25500,0.31875,0.30,0,100
+Optimistic,DEMO-001,2027-01,USD,96000,420,37800,58200,24000,34200,0.35625,0.30,0,30
+Conservative,DEMO-001,2027-01,USD,64000,280,25200,38800,23000,15800,0.246875,0.30,3400,170

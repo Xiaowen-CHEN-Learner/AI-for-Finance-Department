@@ -1,0 +1,7 @@
+cost_id,entity_id,period,currency,department,cost_item,cost_behavior,driver,base_rate_or_amount
+COST-001,DEMO-001,2027-01,USD,Delivery,External delivery supplier,variable,delivery_hours,90
+COST-002,DEMO-001,2027-01,USD,Sales,Sales department overhead,fixed,monthly,6000
+COST-003,DEMO-001,2027-01,USD,Finance,Finance department overhead,fixed,monthly,4000
+COST-004,DEMO-001,2027-01,USD,People,People department overhead,fixed,monthly,3000
+COST-005,DEMO-001,2027-01,USD,IT,Systems and support,fixed,monthly,5000
+COST-006,DEMO-001,2027-01,USD,Management,Management overhead,fixed,monthly,5000

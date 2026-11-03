@@ -1,0 +1,4 @@
+source_row_id,entity_id,period,currency,client_id,segment,service_type,region,unit,base_units,price_per_unit,delivery_hours_per_unit
+SALES-001,DEMO-001,2027-01,USD,SYN-001,Retail,Advisory,North America,billable_hour,100,200,1
+SALES-002,DEMO-001,2027-01,USD,SYN-002,Technology,Advisory,North America,billable_hour,150,200,1
+SALES-003,DEMO-001,2027-01,USD,SYN-003,Technology,Analytics,APAC,billable_hour,100,300,1

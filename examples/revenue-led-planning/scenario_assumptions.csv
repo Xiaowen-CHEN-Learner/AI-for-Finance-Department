@@ -1,0 +1,4 @@
+scenario,entity_id,period,currency,volume_multiplier,price_multiplier,delivery_rate_multiplier,incremental_it_cost,delivery_capacity_hours,target_ebitda_margin
+Base,DEMO-001,2027-01,USD,1.0,1.0,1.0,0,450,0.30
+Optimistic,DEMO-001,2027-01,USD,1.2,1.0,1.0,1000,450,0.30
+Conservative,DEMO-001,2027-01,USD,0.8,1.0,1.0,0,450,0.30

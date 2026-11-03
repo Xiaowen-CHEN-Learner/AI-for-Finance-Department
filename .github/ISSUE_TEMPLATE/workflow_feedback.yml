@@ -1,0 +1,39 @@
+name: Workflow feedback
+description: Report a problem or suggest an improvement to a finance workflow.
+title: "[Workflow] "
+body:
+  - type: markdown
+    attributes:
+      value: "Use synthetic examples. Do not include client data, credentials, tax identifiers, or confidential financial information."
+  - type: input
+    id: workflow
+    attributes:
+      label: Workflow and version
+      description: Include the actual filename and internal version or repository commit.
+      placeholder: Version_2/FPandA_Skills.md, internal version 0.3
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: Describe the finance task and where the instructions fall short.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected outcome
+      description: Describe the result or behavior that would solve the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Synthetic example and evidence
+      description: Provide minimal inputs, observed results, relevant calculations, and sources.
+  - type: textarea
+    id: validation
+    attributes:
+      label: Checks performed
+      description: State what was actually run and any review or tool limitations.
